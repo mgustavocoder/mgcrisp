@@ -1,0 +1,33 @@
+{
+    "name": "mgcrisp",
+    "description": "A minimalist, responsive, and open-source theme for Ghost based on Crisp theme",
+    "version": "1.0.0",
+    "engines": {
+        "ghost-api": "v4"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Matheus Gustavo",
+        "email": "mgustavocoder@gmail.com",
+        "url": "https://mgustavocoder.github.io"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "ghost-theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mgustavocoder/mgcrisp"
+    },
+    "config": {
+        "posts_per_page": 5
+    }
+}

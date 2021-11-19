@@ -1,0 +1,10 @@
+{{#foreach posts}}
+<section id="{{comment_id}}" class="{{post_class}}">
+	<h3 class="post-title"><a href="{{url}}">{{title}}</a></h3>
+	<a href="{{url}}" style="font: initial; font-family: system-ui;">{{excerpt}}</a>
+	{{!-- <p style="font: menu; font-family: initial;">{{date published_at format='MMMM D, YYYY'}}<span class="taglist">{{tags separator=" " prefix=" &middot; "}}</span>{{#if featured}}<span class="separator"> &middot; </span><i class="fa fa-star-o feature-star"></i>{{/if}}</p> --}}
+	<p style="font: initial; font-family: monospace;" >{{reading_time}}</p>
+{{!-- <span class="separator"> &middot; </span> --}}
+
+</section>
+{{/foreach}}
