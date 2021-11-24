@@ -47,13 +47,12 @@
 		<main id="content">
 			{{{body}}}
 		</main>
+		<hr>
 		<footer id="footer">
-			<hr>
-			<h3>Tags</h3>
-			{{#get "tags" limit="all"}}{{tags}}{{/get}}
-			<hr>
 			<h3>Social</h3>
 			{{> follow-footer}}
+			<h3>Contato</h3>
+			{{> contact-footer}}
 			<hr>
 			<section id="footer-message">&copy; {{date format='YYYY'}} {{@site.title}}</section>
 		</footer>

@@ -8,7 +8,7 @@ html, body {
 	line-height: 1.65em;
 	font-family: system-ui;
 	font-weight: 300;
-    background-color: aliceblue;
+    background-color: whitesmoke;
 	color: #444;
 }
 html {
@@ -28,7 +28,7 @@ header {
 	width: 13.5em;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #87afff;
+	background-color: #333;
 	text-align: center;
 	line-height: 1em;
 }
@@ -433,12 +433,12 @@ footer a:hover {
 }
 
 .uim-svg {
-	color: #87afff; 
+	color: #333; 
 	font-size: 1.5em !important;
 }
 
 .post {
-	background-color: aquamarine;
+	background-color: gainsboro;
     padding-left: 0.9em;
     padding-bottom: 0.1em;
     padding-top: 0.1em;
@@ -448,8 +448,15 @@ footer a:hover {
 }
 
 section.post:hover, section.post:hover a {
-	background-color: #87afff;
+	background-color: #333;
 	cursor: pointer;
 	color: white;
 	text-decoration: none;
+}
+
+section.topics a {
+	color: white;
+	background-color: #333;
+	border-radius: 50rem;
+	padding: 0.5rem;
 }
